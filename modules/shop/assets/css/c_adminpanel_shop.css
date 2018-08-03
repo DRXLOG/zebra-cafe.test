@@ -105,8 +105,7 @@ table {
 }
 
 .ad_shop_good_wrapper {
-	background: #7F7F7F;
-	margin: 0;
+	background: #4C797F;
 	min-width: 304px;
 	height: 206px;
 	display: flex;
@@ -117,8 +116,8 @@ table {
 }
 
 .ad_shop_good_wrapper img{
+	display: inline-block;
 	position: relative;
-	margin: 0;
 	width: 100%;
 	height: 100%;
 	z-index: 0;
@@ -127,17 +126,19 @@ table {
     filter: blur(1px) grayscale(50%);
 }
 
-.ad_shop_good_trash {
+.ad_shop_good_icons {
 	position: absolute;
 	width: 304px;
 	height: 206px;
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-end;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-start;
 }
 
-.ad_shop_good_trash a{
+.ad_shop_good_icons a{
+	margin-top: 5px;
+	margin-right: 5px; 
 	position: relative;
 	width: 30px;
 	height: 30px;
@@ -148,11 +149,24 @@ table {
 	align-items: center;
 }
 
-.ad_shop_good_trash img{
+.ad_shop_good_icons img{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	filter: blur(0px) grayscale(0);
+}
+
+#ad_shop_good_pen a{
+	margin-top: 5px;
+	margin-right: 40px; 
 	position: relative;
 	width: 30px;
 	height: 30px;
-	filter: blur(0px) grayscale(0);
+	background: #62A7CC;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .ad_shop_good_name {
