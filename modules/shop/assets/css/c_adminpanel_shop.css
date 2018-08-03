@@ -157,7 +157,7 @@ table {
 
 .ad_shop_good_name {
 	position: absolute;
-	z-index: 99;
+	z-index: 98;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
