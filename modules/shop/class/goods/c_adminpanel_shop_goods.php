@@ -15,7 +15,7 @@ class C_adminpanel_shop_goods
     
     		'<div class="ad_shop_good_wrapper">'.
     		'<img src="http://zebra-cafe.test/modules/shop/assets/img/jpg/goods/'.$row['img'].'" alt="">'.
-    		'<div class="ad_shop_good_trash"><img src="http://zebra-cafe.test/modules/shop/assets/img/svg/trash.svg" alt=""></div>'.
+    		'<div class="ad_shop_good_trash"><a href="#"><img src="http://zebra-cafe.test/modules/shop/assets/img/svg/trash.svg" alt=""></a></div>'.
     		'<div class="ad_shop_good_name"><p>'.$row['name'].'</p></div>'.
     		'</div>'
     		;

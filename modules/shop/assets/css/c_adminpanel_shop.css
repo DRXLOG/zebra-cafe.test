@@ -129,16 +129,27 @@ table {
 
 .ad_shop_good_trash {
 	position: absolute;
-	width: 90%;
-	height: 100%;
+	width: 304px;
+	height: 206px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-end;
 }
 
+.ad_shop_good_trash a{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background: #62A7CC;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .ad_shop_good_trash img{
-	z-index: 10;
+	position: relative;
 	width: 30px;
 	height: 30px;
 	filter: blur(0px) grayscale(0);
