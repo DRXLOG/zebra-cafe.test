@@ -7,6 +7,8 @@ class C_adminpanel_protect
 		if ($_SESSION['user_role']==1) {
 			$Msglogin = $_SESSION['username'];
 			return $Msglogin;
+		} else {
+			$this->acessDeny();
 		}
 	}
 
@@ -21,8 +23,5 @@ class C_adminpanel_protect
 		 echo $this->acessAllow();
 	}
 
-	function PSessionDie() {
-		
-	}
 }
 ?>

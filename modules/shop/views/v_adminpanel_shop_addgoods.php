@@ -46,8 +46,8 @@ require '../../../core/models/m_adminpanel_protect.php';
 					<li><a href="#">Заказы</a></li>
 				</ul>
 			</div>
-			<div class="ad_shop_goods">
-				<?php require '../models/m_adminpanel_shop_goods.php'; ?>
+			<div class="ad_shop_goods_add">
+				
 			</div>
 		</div>
 	</div>

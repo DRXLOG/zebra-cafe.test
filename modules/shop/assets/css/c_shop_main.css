@@ -1,6 +1,6 @@
 @font-face {
     font-family: open-sanse; /* Гарнитура шрифта */
-    src: url(http://zebra-cafe.test/tempates/fonts/OpenSansCondensed-Light.ttf); /* Путь к файлу со шрифтом */
+    src: url(http://zebra-cafe.test/templates/fonts/OpenSansCondensed-Light.ttf); /* Путь к файлу со шрифтом */
    }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

@@ -9,9 +9,9 @@ class C_adminpanel_login {
 
 	function AP_check_login() {
 		$C_main_connectdb = new C_main_connectdb;
-		$C_main_connectdb->ConnectDB('localhost', 'zebra_cafe', 'Admin', '123Rowsmw', 'utf8');
+		$C_main_connectdb->ConnectDB();
 		$login = $_GET['login'];
-		$SHT = $C_main_connectdb->ConnectDB('localhost', 'zebra_cafe', 'Admin', '123Rowsmw', 'utf8');		
+		$SHT = $C_main_connectdb->ConnectDB();		
 		$Connect = $SHT->query('SELECT login FROM admin');
 		while ($row = $Connect->fetch()) {
     		if ($row['login'] == $login) {
@@ -25,9 +25,9 @@ class C_adminpanel_login {
 
 	function AP_check_password() {
 		$C_main_connectdb = new C_main_connectdb;
-		$C_main_connectdb->ConnectDB('localhost', 'zebra_cafe', 'Admin', '123Rowsmw', 'utf8');
+		$C_main_connectdb->ConnectDB();
 		$password = $_GET['password'];
-		$SHT = $C_main_connectdb->ConnectDB('localhost', 'zebra_cafe', 'Admin', '123Rowsmw', 'utf8');
+		$SHT = $C_main_connectdb->ConnectDB();
 		$Connect = $SHT->query('SELECT password FROM admin');
 		while ($row = $Connect->fetch())
 		{

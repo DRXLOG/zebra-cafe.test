@@ -8,7 +8,7 @@ $C_adminpanel_session->SessionBadMSG();
 <head>
 	<meta charset="UTF-8">
 	<title>Авторизация в админ панель</title>
-	<link rel="stylesheet" href="../../tempates/css/admin.css">
+	<link rel="stylesheet" href="../../templates/css/admin.css">
 </head>
 <body>	
 <div class="pas_main_block">

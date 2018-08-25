@@ -1,6 +1,6 @@
 @font-face {
     font-family: open-sanse; /* Гарнитура шрифта */
-    src: url(http://zebra-cafe.test/tempates/fonts/OpenSansCondensed-Light.ttf); /* Путь к файлу со шрифтом */
+    src: url(http://zebra-cafe.test/templates/fonts/OpenSansCondensed-Light.ttf); /* Путь к файлу со шрифтом */
    }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -78,7 +78,7 @@ table {
 	align-items: center;
 }
 
-.ad_shop_menu li{
+.ad_shop_menu ul li{
 	margin-left: 2px;
 	padding: 0;
 	background: #62A7CC;
@@ -91,6 +91,22 @@ table {
 	font-family: open-sanse;
 	font-size: 22px;
 	color: #fff;
+}
+
+.ad_shop_menu ul li a{
+	margin-left: 2px;
+	padding: 0;
+	background: #62A7CC;
+	width: 100px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: open-sanse;
+	font-size: 22px;
+	color: #fff;
+	text-decoration: none;	
 }
 
 .ad_shop_goods {
@@ -155,6 +171,8 @@ table {
 	filter: blur(0px) grayscale(0);
 }
 
+
+
 #ad_shop_good_pen a{
 	margin-top: 5px;
 	margin-right: 40px; 
@@ -187,3 +205,20 @@ table {
 	align-items: center;
 }
 
+.ad_main_warning {
+	top: 50px;
+	position: relative;
+	width: 918px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.warning {
+	position: relative;
+	width: 200px;
+	height: auto;
+	background: #62A7CC;
+}
